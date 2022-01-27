@@ -1,0 +1,54 @@
+* {
+	font-family: 'Dongle', monospace;
+	font-size:20px;
+}
+
+#external-styling {
+	color: yellow;
+}
+
+/*type selector*/
+h1 {
+	font-size: 2.5rem;
+}
+
+/*id selector*/
+#h2-selector {
+	text-transform: uppercase;
+}
+
+/*class selector*/
+.languages-learned-list {
+	background-color:skyblue;
+}
+
+/*attribute selector*/
+li[value] {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #693328;
+}
+
+/*adjacent sibling selector*/
+img+ul {
+	list-style: none;
+}
+
+/*descendant selector*/
+#other-things-learned img {
+	height: 400px;
+	width: 400px;
+	border-radius: 180px
+}
+
+/*generic sibling selector*/
+#other-things-learned~p {
+	text-align: center;
+	font-size: 18px;
+	font-style: 'New Courier';
+}
+
+/*child selector*/
+#other-things-learned>ul {
+	letter-spacing: 15px;
+}
